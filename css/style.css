@@ -345,7 +345,7 @@ nav ul li a.active {
 .icon-area {
     padding: 1rem;
     font-size: 2rem;
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     color: white;
     min-width: 5rem;
     text-align: center;
@@ -380,7 +380,7 @@ nav ul li a.active {
 }
 
 .button {
-    background-image: url(/img/background.jpg);
+    background-image: url(img/background.jpg);
     color: white;
     padding: 1.5rem 2rem;
     cursor: pointer;
