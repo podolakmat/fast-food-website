@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with-device-width, initial-scale-1.0">
+    <title>Challange Website</title>
+    <link rel="stylesheet" href="css/normalize.css">  <!--reset-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> <!--fonts-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> <!--main css style-->
+</head>
+<body>
+    <header>
+        <h1 class="logo">Love <span>&#9825</span> Food</h1>
+           <nav class="menu" role="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="submenu"><a href="#">Food</a>
+                    <ul>
+                        <li><a href="#">Pizza</a></li>
+                        <li><a href="#">Kebab</a></li>
+                        <li><a href="#">French fries</a></li>
+                        <li><a href="#">Burgers</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="clear">
+            </div>
+        </nav> 
+        <div class="hamburger-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>       
+    </header>
+    <section class="hero">
+        <div class="motto">
+            <h2>First, <span>pizza</span>. Second, <span>kebab</span>. Third, <span>french fries</span>.</h2>
+            <h2>And finally, <span class="flashing">burgers!</span></h2>
+        </div>
+    </section>
+    <article class="about">
+        <div class="container">
+            <h2>We love Fast foods!</h2>
+            <img src="img/pizza.png">
+            <p>Lorem ipsum dolor sit amet, ex pri quando graeco saperet, qui primis definitionem ne.</p>
+            <p>Ex usu reque tibique, in pri mandamus democritum.</p>
+            <p>Te sea graeco aperiri electram. Pri facilisi singulis urbanitas ad.</p>
+        </div>   
+    </article>
+    <section class="gallery">
+        <div class="container">
+            <h2>Food gallery</h2>
+            <figure class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efe01df2ebde79714be88d560479c9c7&auto=format&fit=crop&w=750&q=80" alt="pizza">
+                <img src="https://images.unsplash.com/photo-1504185945330-7a3ca1380535?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9f2d35c4ea30a81e428e66c653748f91&auto=format&fit=crop&w=321&q=80" alt="burger">
+                <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=667&q=80" alt="burger french fries chips">
+                <img src="https://images.unsplash.com/photo-1498530875991-2806ee9dd6d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=383b6e3bd6929badc51690352513020f&auto=format&fit=crop&w=889&q=80" alt="kebab">
+            </figure>
+        </div>
+    </section>
+    <section class="video">
+        <div class="movie">
+            <iframe width="560" height="315" src="video/BBQ-Grilling.mp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section class="icons">
+        <div class="icons-box fb">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <p>Like Us on</p>
+            <p><span>Facebook</span></p>
+        </div>
+        <div class="icons-box insta">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <p>Follow Us on</p>
+            <p><span>Instagram</span></p>
+        </div>
+        <div class="icons-box twitt">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <p>Follow Us on</p>
+            <p><span>Twitter</span></p>
+        </div>
+        <div class="icons-box yt">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <p>Watch Us on</p>
+            <p><span>Youtube</span></p>
+        </div>
+    </section> 
+    <section class="form"> 
+        <form action="">
+            <h2>Do you have any questions? Go ahead! Ask Us anything You want :D</h2>
+            <div class="form-input">
+                <i class="fa fa-user icon-area"></i>
+                <input class="input-area" type="text" placeholder="Name or Company name" name="username" required>
+            </div>
+            <div class="form-input">
+                <i class="fa fa-at icon-area"></i>
+                <input class="input-area" type="email" placeholder="Your e-mail" name="email" required>
+            </div>
+            <div class="form-input">
+                <i class="fa fa-envelope icon-area message-icon"></i>
+                <textarea class="input-area textarea"  name="message" placeholder="Type Your message..." required></textarea>
+            </div>
+            <div class="form-button">
+                <input type="submit" value="Send" class="button">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p>&#169 Website created by Mateusz Podolak</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js">
+    </script>   
+</body>
+</html>
