@@ -58,7 +58,7 @@ nav ul li {
     position: relative;
 }
 
-nav ul li.submenu:before {
+nav ul li.submenu-list:before {
     content: '\f063';
     font-family: fontAwesome;
     position: absolute;
@@ -67,7 +67,7 @@ nav ul li.submenu:before {
     right: 1px;
 }
 
-nav ul li.active.submenu:before {
+nav ul li.active.submenu-list:before {
     content: '\f062';
 }
 
@@ -106,10 +106,6 @@ nav ul li a:hover {
     animation: flashing 1.5s infinite linear;
     color: #D5BF00 !important;
     text-shadow: 0 0 30px #fff, 0 0 10px;
-}
-
-nav ul li a.active {
-  background: #2196f3;
 }
 
 .hamburger-icon {
@@ -574,19 +570,27 @@ iframe {
 /* mobile menu */
 @media screen and (max-width: 768px) { 
     header {
+    background-image: none;
+    border: none;
     padding: 0 2rem;
 }
 
 .hamburger-icon {
+    color: #fff;
     display: block;
+    text-shadow: 2px 2px 1px #003349;
 }
-    
+
+.logo {
+    opacity: 0;
+}    
 nav {
     position: absolute;
-    top: 5rem;
+    padding-top: 5rem;
+    top: 0rem;
     left: -100%;
     width: 100%;
-    height: calc(100vh - 50px);
+    height: 100vh;
     background-image: url(../img/background.png);
     transition: 0.5s;
 }
